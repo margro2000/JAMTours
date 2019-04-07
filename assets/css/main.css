@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #2e3141;
+		background-color: #FFD700;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
@@ -2308,7 +2308,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4c5c96;
+			border-color: #FFD700;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2713,7 +2713,7 @@ input, select, textarea {
 				}
 
 				ul.pagination li > .page.active {
-					background-color: #4c5c96;
+					background-color: #FFD700;
 				}
 
 			ul.pagination li:first-child {
@@ -2881,7 +2881,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #4c5c96;
+			background-color: #FFD700;
 			box-shadow: none;
 		}
 
@@ -3244,7 +3244,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #FFD700;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3342,11 +3342,14 @@ input, select, textarea {
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
+		background-color: #FFD700;
 	}
 
 		#banner .inner {
+
 			margin: 0 auto;
 			width: 55em;
+
 		}
 
 		#banner .logo {
@@ -3537,7 +3540,7 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
+			background-color: #FFD700;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
 			background-size: auto, cover;
 			background-position: center, 0% 30%;
@@ -3726,15 +3729,15 @@ input, select, textarea {
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23FFD700%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #FFD700, 0 1px 0 0 #FFD700;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #FFD700, 0 1px 0 0 #FFD700;
 			}
 
 			.wrapper.spotlight .inner {
@@ -3800,16 +3803,13 @@ input, select, textarea {
 
 			.wrapper.spotlight.style3 {
 				background-color: #F39F86;
-;
 			}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
 
-					background-color: #F39F86;
 				}
 
 				.wrapper.spotlight.style3:before {
-					background-color: #F39F86;
 				}
 
 				.wrapper.spotlight.style3:after {
