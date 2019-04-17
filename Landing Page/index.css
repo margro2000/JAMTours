@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  padding: 0 0 0 0;
+  position: relative;
+}
+
+.head-container {
+  margin: 0 0 0 0;
+  padding: 50px 0 0 0;
+  width: 100%;
+}
+
+.silver {
+  background-color: #eeeeee;
+}
+
+.orange {
+  background-color: #eec747;
+}
+
+.title {
+  font-size: 60pt;
+  margin: 0 0 10px 0;
+}
+
+.big-title {
+  font-size: 40pt;
+  margin: 0 0 10px 0;
+}
+
+.sub-title {
+  font-size: 20pt;
+  margin: 0 auto;
+}
+
+.sign-up-container {
+  width: 100%;
+  padding: 0 auto;
+  margin: 10% 0 0 0%;
+}
+
+.right-appear {
+  margin-left: 57%;
+}
+
+.info {
+  height: 10%;
+  width: 30%;
+  border-radius: 4px;
+  margin: 0 0 0 55%;
+}
+
+.center-hor {
+  margin: 0 auto;
+}
+
+.center-vert > * {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.sign-up-btn {
+  background-color: #eec747;
+  width: 50%;
+  height: 25%;
+  padding-top: 5px;
+  margin-top: 40px;
+}
+
+.sign-up-btn > p {
+  font-size: 16pt;
+}
+
+.sign-up-btn:hover {
+  background-color: #fbd748;
+}
+
+img {
+  position: fixed;
+  max-height: 110%;
+  max-width: 60%;
+  opacity: 1;
+  top: 250px;
+  left: 20%;
+}
+
+.bullet-style {
+  font-size: 17pt;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+.green {
+  background-color: green;
+}
+
+.flexbox {
+  width: 85%;
+  height: 70%;
+  display: flex;
+  align-items: stretch;
+}
+
+.flexbox > * {
+  width: 33%;
+  height: 100%;
+  margin: 0 15px 0 15px;
+  font-size: 17pt;
+}
+
+.fp {
+  font-size: 35pt;
+  margin: 0 auto;
+  color: white;
+}
+
+.fp2 {
+  font-size: 20pt;
+  color: black;
+  font-weight: 800;
+}
+
+.ib {
+  display: inline;
+}
+
+.copy {
+  position: absolute;
+  bottom: 5px;
+  margin: 0 auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.stuff {
+  padding: 0 auto;
+  margin: 0 auto;
+}
